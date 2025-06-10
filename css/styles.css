@@ -3906,6 +3906,17 @@ form label.error {
   margin-top: .5rem;
   margin-bottom: 1.5rem;
 }
+.first-footer .property-location h3::after {
+  display: block;
+  height: 3px;
+  font-weight: bold;
+  background-color: #03a9f5;
+  content: " ";
+  width: 50px;
+  margin-top: .5rem;
+  margin-bottom: 1.5rem;
+}
+
 
 @media screen and (max-width: 991px) {
   .first-footer .newsletters h3 {
@@ -6024,6 +6035,7 @@ select {
   margin-right: .5rem;
   margin-bottom: .5rem;
 }
+
 
 .inner-pages .widget h5 {
   font-family: 'Raleway', sans-serif;
